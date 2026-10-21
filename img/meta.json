@@ -1,0 +1,134 @@
+{
+ "ema_star_ok": {
+  "tf": "60",
+  "time": "2026.03.04 14:00",
+  "pct": 4.849613585370503,
+  "success": true
+ },
+ "ema_star_ng": {
+  "tf": "60",
+  "time": "2025.12.01 01:00",
+  "pct": -5.2354139211692825,
+  "success": false
+ },
+ "trend3_ok": {
+  "tf": "60",
+  "time": "2025.01.15 20:00",
+  "pct": 3.2482838474898683,
+  "success": true
+ },
+ "trend3_ng": {
+  "tf": "60",
+  "time": "2025.01.27 06:00",
+  "pct": -4.044645077373324,
+  "success": false
+ },
+ "bb_fake_ok": {
+  "tf": "60",
+  "time": "2025.12.29 06:00",
+  "pct": 2.712677826658287,
+  "success": true
+ },
+ "bb_fake_ng": {
+  "tf": "240",
+  "time": "2026.06.01 12:00",
+  "pct": -7.063248581232054,
+  "success": false
+ },
+ "breakout_nv_ok": {
+  "tf": "60",
+  "time": "2025.01.20 04:00",
+  "pct": -4.028205925884028,
+  "success": true
+ },
+ "breakout_nv_ng": {
+  "tf": "60",
+  "time": "2025.12.02 20:00",
+  "pct": 5.212673412389543,
+  "success": false
+ },
+ "sr_retest_ok": {
+  "tf": "240",
+  "time": "2026.05.17 16:00",
+  "pct": -2.8106867308550663,
+  "success": true
+ },
+ "sr_retest_ng": {
+  "tf": "60",
+  "time": "2026.02.13 16:00",
+  "pct": 3.785679729075955,
+  "success": false
+ },
+ "rsi_div_ok": {
+  "tf": "60",
+  "time": "2025.08.22 21:00",
+  "pct": 4.181916949409135,
+  "success": true
+ },
+ "rsi_div_ng": {
+  "tf": "60",
+  "time": "2025.02.03 07:00",
+  "pct": -4.097507196668096,
+  "success": false
+ },
+ "double_bottom_ok": {
+  "tf": "60",
+  "time": "2026.04.13 22:00",
+  "pct": 2.125997433178952,
+  "success": true
+ },
+ "double_bottom_ng": {
+  "tf": "60",
+  "time": "2025.06.05 21:00",
+  "pct": -4.90926980642964,
+  "success": false
+ },
+ "hammer_ok": {
+  "tf": "60",
+  "time": "2026.08.03 17:00",
+  "pct": 2.0076246409437704,
+  "success": true
+ },
+ "hammer_ng": {
+  "tf": "60",
+  "time": "2025.11.03 07:00",
+  "pct": -2.1886916083470602,
+  "success": false
+ },
+ "gc_trap_ok": {
+  "tf": "60",
+  "time": "2026.02.12 21:00",
+  "pct": -3.624727186928567,
+  "success": true
+ },
+ "gc_trap_ng": {
+  "tf": "60",
+  "time": "2025.12.02 21:00",
+  "pct": 4.333329514075873,
+  "success": false
+ },
+ "shooting_ok": {
+  "tf": "240",
+  "time": "2026.01.28 20:00",
+  "pct": -5.666301651507363,
+  "success": true
+ },
+ "shooting_ng": {
+  "tf": "60",
+  "time": "2025.03.19 19:00",
+  "pct": 2.5652080189696056,
+  "success": false
+ },
+ "double_top_ok": {
+  "tf": "60",
+  "time": "2025.10.14 11:00",
+  "pct": -2.626024554121082,
+  "success": true
+ },
+ "double_top_ng": {
+  "tf": "60",
+  "time": "2026.06.14 23:00",
+  "pct": 2.2228701865199056,
+  "success": false
+ }
+}
