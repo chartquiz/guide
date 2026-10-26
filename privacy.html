@@ -62,14 +62,14 @@ a{color:var(--accent)}
   <h2 id="youtube">8. 유튜브 자동 업로드 (Google API)</h2>
   <p>차트퀴즈 운영자는 직접 만든 차트 퀴즈 영상을 <b>운영자 본인의 유튜브 채널</b>에 올리기 위해 Google의 YouTube Data API를 사용합니다.</p>
   <ul>
-    <li>요청 권한: <code>youtube.upload</code> (동영상 업로드) 하나뿐입니다. 시청자나 다른 사람의 Google 계정 정보에는 접근하지 않습니다.</li>
+    <li>요청 권한: <code>youtube.upload</code>(동영상 업로드), <code>youtube.force-ssl</code>(운영자 본인 영상에 채널 안내 댓글 1개 작성) 두 가지뿐입니다. 시청자나 다른 사람의 Google 계정 정보는 읽거나 저장하지 않습니다.</li>
     <li>로그인 정보(토큰)는 운영자 컴퓨터에만 저장되며, 업로드 외의 목적으로 쓰거나 다른 사람·회사에 제공하지 않습니다.</li>
     <li>Google API로 받은 정보를 광고, 판매, AI 학습 등에 사용하지 않으며, <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>(제한적 사용 요건 포함)을 따릅니다.</li>
     <li>연결 해제: Google 계정의 <a href="https://myaccount.google.com/permissions">서드 파티 액세스 관리</a>에서 언제든지 권한을 취소할 수 있습니다.</li>
   </ul>
 
   <h2>English summary</h2>
-  <p class="en">This app replies to comments on @daily_chartquiz posts by sending one Instagram direct message per person per post with a link to educational chart-pattern material. It reads only the comment ID, text, timestamp and commenter username of comments on our own posts, stores only comment IDs and an irreversible hash of the post/user pair to prevent duplicate messages (oldest removed automatically), and never sells or shares data with third parties. To request deletion, send a DM saying "data deletion request" to @daily_chartquiz; we delete within 7 days. Separately, the operator uses the YouTube Data API (scope youtube.upload only) to upload the operator's own quiz videos to the operator's own YouTube channel; the OAuth token stays on the operator's computer, is never shared, and Google user data is handled in line with the Google API Services User Data Policy, including the Limited Use requirements. Access can be revoked at myaccount.google.com/permissions.</p>
+  <p class="en">This app replies to comments on @daily_chartquiz posts by sending one Instagram direct message per person per post with a link to educational chart-pattern material. It reads only the comment ID, text, timestamp and commenter username of comments on our own posts, stores only comment IDs and an irreversible hash of the post/user pair to prevent duplicate messages (oldest removed automatically), and never sells or shares data with third parties. To request deletion, send a DM saying "data deletion request" to @daily_chartquiz; we delete within 7 days. Separately, the operator uses the YouTube Data API (scopes youtube.upload and youtube.force-ssl only) to upload the operator's own quiz videos and post one channel-intro comment on them to the operator's own YouTube channel; the OAuth token stays on the operator's computer, is never shared, and Google user data is handled in line with the Google API Services User Data Policy, including the Limited Use requirements. Access can be revoked at myaccount.google.com/permissions.</p>
 </main>
 
 </body>
